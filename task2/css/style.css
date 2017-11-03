@@ -38,9 +38,21 @@ body {
     margin: 20px 20px;
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    border-right: 2px outset;
+    border-bottom: 2px outset;
+    border-left: 1px solid #aaa;
 }
-
+.picbox {
+    border: 1px solid #aaa;
+    text-align: center;
+    border-collapse: collapse;
+    width: 300px;
+    margin: 10px;
+}
+.picbox tr td img {
+    width: 100%;
+}
 #atable{
     border: 1px solid #aaa;
     text-align: center;
@@ -63,9 +75,16 @@ body {
     margin: 20px 20px;
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    border-right: 2px outset;
+    border-bottom: 2px outset;
+    border-left: 1px solid #aaa;
 }
-
+.sidebar pre {
+    border-left: 3px solid #aaa;
+    padding: 10px;
+    font-size: 20px;
+}
 .sidebar td {
     font-size: 14px;
 }
