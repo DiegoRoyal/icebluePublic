@@ -1,0 +1,100 @@
+body {
+    position: relative;
+    margin: 0 auto;
+    background-color: #ddd;
+    padding-bottom: 50px;
+}
+
+.header {
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    background-color: #555;
+}
+
+.logo {
+    height: 40px;
+    float: left;
+    margin: 5px 10px;
+}
+
+.guide {
+    float: right;
+}
+
+.guide li{
+    float: left;
+    margin: 0 20px;
+}
+
+.guide li a,.guide li a:visited,guide li a:hover{
+    color: #fff;
+    text-decoration: none;
+    list-style: disc;
+}
+
+.contentbox {
+    display: block;
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+}
+
+#atable{
+    border: 1px solid #aaa;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#atable tr td{
+    border: 1px solid #aaa;
+}
+
+#atable tr th{
+    border: 1px solid #aaa;
+    background-color: #444;
+    color: #fff;
+}
+
+.sidebar {
+    display: block;
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+}
+
+.sidebar td {
+    font-size: 14px;
+}
+
+.sidebar textarea {
+    resize:none;
+}
+
+#btn-submit {
+    display: block;
+    border: none;
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    background-color: #08f;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer b {
+    position: relative;
+    top:18px;
+    color: #fff;
+}
