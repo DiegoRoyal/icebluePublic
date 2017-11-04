@@ -1,0 +1,37 @@
+.wrapper {
+    width: 100%-40px;
+    background-color: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+    padding: 20px;
+    margin: 20px;
+}
+.leftbar {
+    padding: 20px;
+    width: 160px;
+    background-color: #fff;
+    border: 1px solid #999;
+    float: left;
+}
+.rightbar {
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid #999;
+    float: right;
+    padding: 10px;
+}
+.main-content {
+    margin: 0 140px 0 220px;
+    background-color: #fff;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 20px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.rightbar .logo {
+    margin: 10px;
+}
